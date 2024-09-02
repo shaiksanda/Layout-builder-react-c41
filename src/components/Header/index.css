@@ -1,0 +1,13 @@
+/* Write your CSS here */
+
+.container {
+  background-color: #cbd5e1;
+  text-align: center;
+  padding: 6px;
+  margin: 5px;
+}
+
+.header {
+  color: #475569;
+  font-weight: bold;
+}

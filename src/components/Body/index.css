@@ -1,0 +1,88 @@
+/* Write your CSS here */
+
+.body-container {
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.navbar {
+  background-color: #e2e8f0;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+.content {
+  background-color: #f1f5f9;
+  width: 100%;
+  padding: 10px;
+}
+
+.navbar-heading {
+  font-size: 20px;
+  color: #475569;
+}
+
+.navbar-items-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.item {
+  width: 50%;
+  margin: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #64748b;
+}
+
+.content-heading {
+  color: #64748b;
+  font-size: 28px;
+}
+.description {
+  color: #64748b;
+  font-weight: 500;
+}
+.ad-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ad {
+  border: 2px solid #64748b;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4px;
+}
+.ad-heading {
+  color: #64748b;
+  font-weight: 600;
+}
+@media screen and (min-width: 768px) {
+  .ad-container {
+    flex-direction: column;
+  }
+  .body-container {
+    flex-direction: row;
+  }
+
+  .navbar-heading {
+    font-size: 28px;
+  }
+  .navbar-items-container {
+    flex-direction: column;
+  }
+  .item {
+    width: 100%;
+  }
+  .ad {
+    width: 50%;
+  }
+}
